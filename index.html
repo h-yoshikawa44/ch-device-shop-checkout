@@ -138,7 +138,10 @@
             </div>
           </div>
           <hr class="shop-checkout-divider" />
-          <form class="shop-coupon-form">
+          <form
+            class="shop-coupon-form"
+            onsubmit="alert('dummy coupon submit'); return false;"
+          >
             <input
               class="shop-coupon-form__input"
               type="text"
@@ -156,7 +159,10 @@
             </p>
           </div>
         </section>
-        <form class="contact-info-form">
+        <form
+          class="contact-info-form"
+          onsubmit="alert('dummy contact infomation form submit'); return false;"
+        >
           <h2 class="contact-info-form__title">Contact Information</h2>
           <div class="contact-info-form__input-list">
             <label>
