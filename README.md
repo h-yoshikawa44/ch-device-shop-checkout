@@ -8,14 +8,14 @@
 
 <div align="center">
   <h3>
-    <!-- <a href="{https://your-demo-link.your-domain}">
+    <a href="https://h-yoshikawa44.github.io/ch-device-shop-checkout/">
       Demo
     </a>
-    <span> | </span> -->
-    <!-- <a href="{https://your-url-to-the-solution}">
+    <span> | </span>
+    <a href="https://devchallenges.io/solution/49746">
       Solution
     </a>
-    <span> | </span> -->
+    <span> | </span>
     <a href="https://devchallenges.io/challenge/apple-shop-checkout-page-challenge">
       Challenge
     </a>
@@ -50,17 +50,17 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 ### Desktop
 
-（スクショを貼る）
+![desktop](./screenshots/desktop.png)
 
 ### Mobile
 
-（スクショを貼る）
+<img src="./screenshots/mobile.png" width="50%">
 
 ### What I learned
 
 <!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
 
-（後で書く）
+- Review of element placement control by position: absolute.
 
 ### Built with
 
@@ -83,21 +83,21 @@ Other major libraries
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
 
-- [ ] Build an Apple shop checkout page website with a top navigation, summary section, and contact form section.
-- [ ] Use fundamental CSS techniques like Grid and Flexbox to structure the layout.
-- [ ] Display all the products in the summary section.
-- [ ] Collect user information such as name, email, and country in the contact form section.
-- [ ] Style the layout to be responsive and adapt to different screen sizes.
-- [ ] Practice styling forms and fundamental CSS techniques like Grid and Flex.
-- [ ] Ensure the website is accessible and user-friendly.
-- [ ] Test the website on different devices and screen sizes to ensure responsiveness.
-- [ ] Optimize the website for performance and loading speed.
-- [ ] Use semantic HTML elements to structure the content and improve SEO.
-- [ ] Apply CSS styles to enhance the visual presentation of the Apple shop checkout page elements.
-- [ ] Validate the HTML and CSS code to ensure it follows best practices and standards.
-- [ ] (Optional) Add hover effects or animations to make the website more interactive.
-- [ ] Document the code and provide clear instructions on how to run and use the website.
-- [ ] Deploy the website to make it accessible for everyone.
+- [x] Build an Apple shop checkout page website with a top navigation, summary section, and contact form section.
+- [x] Use fundamental CSS techniques like Grid and Flexbox to structure the layout.
+- [x] Display all the products in the summary section.
+- [x] Collect user information such as name, email, and country in the contact form section.
+- [x] Style the layout to be responsive and adapt to different screen sizes.
+- [x] Practice styling forms and fundamental CSS techniques like Grid and Flex.
+- [x] Ensure the website is accessible and user-friendly.
+- [x] Test the website on different devices and screen sizes to ensure responsiveness.
+- [x] Optimize the website for performance and loading speed.
+- [x] Use semantic HTML elements to structure the content and improve SEO.
+- [x] Apply CSS styles to enhance the visual presentation of the Apple shop checkout page elements.
+- [x] Validate the HTML and CSS code to ensure it follows best practices and standards.
+- [x] (Optional) Add hover effects or animations to make the website more interactive.
+- [x] Document the code and provide clear instructions on how to run and use the website.
+- [x] Deploy the website to make it accessible for everyone.
 
 ## How To Use
 
@@ -115,7 +115,7 @@ npm run dev
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
-（後で書く）
+（none in particular）
 
 ## Author
 
