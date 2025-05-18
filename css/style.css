@@ -298,3 +298,26 @@ a {
   border: none;
   border-radius: 8px;
 }
+
+@media (width >= 1024px) {
+  .main {
+    height: 560px;
+  }
+
+  .shop-info {
+    right: 40px;
+    left: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shop-checkout {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 20px;
+  }
+
+  .contact-info-form {
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0;
+  }
+}
