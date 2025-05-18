@@ -196,8 +196,15 @@ a {
   align-items: center;
   justify-content: center;
   padding: 0 6px;
+  cursor: pointer;
   background-color: transparent;
   border: none;
+  border-radius: 16px;
+}
+
+.shop-item-list-item__cancel-button:hover {
+  background-color: rgb(0 0 0 / 5%);
+  transition: background-color 0.2s;
 }
 
 .shop-checkout-divider {
@@ -222,9 +229,15 @@ a {
 .shop-coupon-form__submit-button {
   padding: 12px 16px;
   color: var(--text-color-primary-button);
+  cursor: pointer;
   background-color: var(--bg-color-primary-button);
   border: none;
   border-radius: 8px;
+}
+
+.shop-coupon-form__submit-button:hover {
+  background-color: rgb(0 0 0 / 80%);
+  transition: background-color 0.2s;
 }
 
 .shop-checkout-total {
@@ -294,9 +307,15 @@ a {
   padding: 16px;
   line-height: 1.5;
   color: var(--text-color-primary-button);
+  cursor: pointer;
   background-color: var(--bg-color-primary-button);
   border: none;
   border-radius: 8px;
+}
+
+.contact-info-form__submit-button:hover {
+  background-color: rgb(0 0 0 / 80%);
+  transition: background-color 0.2s;
 }
 
 @media (width >= 1024px) {
