@@ -11,11 +11,208 @@
       content="devChallenges.io - Device Shop Checkout | by h-yoshikawa44"
     />
     <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico" />
+
+    <!-- CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div id="app">
-      <h1>Vite App</h1>
-    </div>
+    <header class="header">
+      <div class="header-text">
+        <h1 class="header-text__title">Checkout</h1>
+        <span class="header-text__item-count"> 3 ITEMS </span>
+      </div>
+    </header>
+    <main class="main">
+      <div class="shop-info">
+        <section class="shop-checkout">
+          <div class="shop-checkout-item-list">
+            <div class="shop-item-list-item">
+              <div class="shop-item-list-item__image-frame">
+                <img
+                  srcset="/images/Gold.png 1x, /images/Gold@2x.png 2x"
+                  src="/images/Gold.png"
+                  alt="iPhone 12 Pro Gold"
+                  width="39"
+                  height="79"
+                />
+              </div>
+              <div class="shop-item-list-item__info">
+                <div class="shop-item-list-item__info-base">
+                  <div>
+                    <b class="shop-item-list-item__name">iPhone 12 Pro</b>
+                    <p class="shop-item-list-item__color">Golden</p>
+                  </div>
+                  <b class="shop-item-list-item__price">$999.00</b>
+                </div>
+                <div class="shop-item-list-item__count">
+                  <span>x 1</span>
+                  <button
+                    class="shop-item-list-item__cancel-button"
+                    type="button"
+                    onclick="alert('dummy cancel button click.');"
+                  >
+                    <img
+                      src="/images/close-icon.svg"
+                      alt="close"
+                      width="24"
+                      height="24"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="shop-item-list-item">
+              <div class="shop-item-list-item__image-frame">
+                <img
+                  srcset="
+                    /images/Apple-watch.png    1x,
+                    /images/Apple-watch@2x.png 2x
+                  "
+                  src="/images/Apple-watch.png"
+                  alt="Apple Watch"
+                  width="30"
+                  height="53"
+                />
+              </div>
+              <div class="shop-item-list-item__info">
+                <div class="shop-item-list-item__info-base">
+                  <div>
+                    <b class="shop-item-list-item__name">Apple Watch</b>
+                    <p class="shop-item-list-item__color">Blue</p>
+                  </div>
+                  <b class="shop-item-list-item__price">$399.00</b>
+                </div>
+                <div class="shop-item-list-item__count">
+                  <span>x 1</span>
+                  <button
+                    class="shop-item-list-item__cancel-button"
+                    type="button"
+                    onclick="alert('dummy cancel button click.');"
+                  >
+                    <img
+                      src="/images/close-icon.svg"
+                      alt="close"
+                      width="24"
+                      height="24"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="shop-item-list-item">
+              <div class="shop-item-list-item__image-frame">
+                <img
+                  srcset="/images/iMac.png 1x, /images/iMac@2x.png 2x"
+                  src="/images/iMac.png"
+                  alt="iMac"
+                  width="80"
+                  height="68"
+                />
+              </div>
+              <div class="shop-item-list-item__info">
+                <div class="shop-item-list-item__info-base">
+                  <div>
+                    <b class="shop-item-list-item__name">iMac</b>
+                    <p class="shop-item-list-item__color">Green</p>
+                  </div>
+                  <b class="shop-item-list-item__price">$1199.00</b>
+                </div>
+                <div class="shop-item-list-item__count">
+                  <span>x 1</span>
+                  <button
+                    class="shop-item-list-item__cancel-button"
+                    type="button"
+                    onclick="alert('dummy cancel button click.');"
+                  >
+                    <img
+                      src="/images/close-icon.svg"
+                      alt="close"
+                      width="24"
+                      height="24"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="shop-checkout-divider" />
+          <form
+            class="shop-coupon-form"
+            onsubmit="alert('dummy coupon submit'); return false;"
+          >
+            <input
+              class="shop-coupon-form__input"
+              type="text"
+              placeholder="Enter coupon code"
+            />
+            <button class="shop-coupon-form__submit-button" type="submit">
+              Apply Coupon
+            </button>
+          </form>
+          <div class="shop-checkout-total">
+            <p><span>Sub total</span><span>$2597.00</span></p>
+            <p><span>Tax</span><span>$623.28</span></p>
+            <p class="shop-checkout-total__all-total">
+              <b>Total</b><b>$3220.28</b>
+            </p>
+          </div>
+        </section>
+        <form
+          class="contact-info-form"
+          onsubmit="alert('dummy contact infomation form submit'); return false;"
+        >
+          <h2 class="contact-info-form__title">Contact Information</h2>
+          <div class="contact-info-form__input-list">
+            <label>
+              First &amp; Last name
+              <input
+                name="name"
+                type="text"
+                placeholder="Enter first &amp; last name"
+              />
+            </label>
+            <label>
+              Email Address
+              <input
+                name="email"
+                type="email"
+                placeholder="Enter email address"
+                autocomplete="email"
+              />
+            </label>
+            <div class="contact-info-form__half-width-input-block">
+              <label>
+                Country
+                <select name="country">
+                  <option value="Finland">Finland</option>
+                  <option value="Sweden">Sweden</option>
+                  <option value="Norway">Norway</option>
+                  <option value="Denmark">Denmark</option>
+                  <option value="Iceland">Iceland</option>
+                </select>
+              </label>
+              <label>
+                Postal Code
+                <input
+                  name="postal-code"
+                  type="text"
+                  placeholder="00270"
+                  autocomplete="postal-code"
+                />
+              </label>
+            </div>
+            <button class="contact-info-form__submit-button" type="submit">
+              Continue
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
     <script type="module" src="/js/main.js"></script>
   </body>
 </html>
